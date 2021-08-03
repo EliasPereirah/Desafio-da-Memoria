@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio da Memória</title>
+    <script src="scripts/dictionary.js"></script>
+    <script async  src="scripts/code.js"></script>
+
+</head>
+<body>
+    <div class="app">
+        <h2>Vamos Desafiar Seu Cerebro e Memória</h2>
+        <p>Será que você está preparado? hum. eu acho que não.</p>
+        <button>Iniciar</button>
+    </div>
+</body>
+
+<style>
+    html,body{
+        background-color: rebeccapurple;
+        color: #fff;
+    }
+    .app{
+        width: 50%;
+        margin: 0 25%;
+    }
+    input{
+        margin-top: 5px;
+        display: block;
+        width: 25px;
+        border-radius: 3px;
+        height: 22px;
+        font-weight: 700;
+        font-size: 16px;
+        border: none;
+        color: gray;
+
+    }
+    textarea{
+        width: 50%;
+        height: 150px;
+        border-radius: 4px;
+        background-color: #f7efff;
+        color: red;
+    }
+    button{
+        display: block;
+        padding: 8px;
+        border: none;
+        font-size: 15px;
+        color: #f3f3f3;
+        border-radius: 3px;
+        background-color: #ff5722
+    }
+
+    select{
+        width: 120px;
+        height: 30px;
+        border-radius: 4px;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: 700;
+        margin: 5px 0;
+        color: gray;
+    }
+    .app{
+       font-size: 18px;
+    }
+    #score > .hits, #score > .slip{
+      background-color: #03a9f4;
+      padding: 6px;
+      border-radius: 4px;
+    }
+    #score > .slip{
+        background-color:hsl(340deg 95% 52%);
+    }
+</style>
+</html>
